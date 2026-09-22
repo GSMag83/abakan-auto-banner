@@ -22,7 +22,7 @@
 .num{line-height:1.05;white-space:nowrap;letter-spacing:.01em}
 .claim{right:0;top:0;bottom:0;background:#F5C518;color:#080d13;display:flex;align-items:center;justify-content:center;gap:4cqh;line-height:1.1;clip-path:polygon(12% 0,100% 0,100% 100%,0 100%)}
 .peak{flex:none;display:block}
-.car{position:absolute;left:0;bottom:0;width:58.66667cqh;height:50.66667cqh;transform-origin:50% 100%;will-change:transform,opacity;animation:dr1 15s linear infinite;--x0:26.66667cqh;--x1:6.66667cqh;--y0:-36cqh;--y1:56.66667cqh;--s0:.16;--s1:1.30}
+.car{position:absolute;left:0;bottom:0;width:58.66667cqh;height:50.66667cqh;transform-origin:50% 100%;will-change:transform,opacity;animation:dr1 15s linear infinite;--x0:26.66667cqh;--x1:5.33333cqh;--y0:-36cqh;--y1:56.66667cqh;--s0:.16;--s1:0.9}
 .car1{animation-delay:0s}.car2{animation-delay:-3.75s}.car3{animation-delay:-7.5s}
 .shell{position:absolute;left:0;right:0;bottom:0}
 .shell::before{content:"";position:absolute;left:6%;right:4%;bottom:0;height:10%;background:radial-gradient(ellipse,rgba(0,0,0,.6),transparent 70%)}
@@ -30,8 +30,8 @@
 @keyframes dr1{
 0%{transform:translate3d(var(--x0),var(--y0),0) scale(var(--s0));opacity:0;z-index:1}
 2%{opacity:1}
-26%{transform:translate3d(var(--x0),-20cqh,0) scale(.62);opacity:1;z-index:2}
-33.333333%{transform:translate3d(var(--x0),5.33333cqh,0) scale(.88);opacity:1;z-index:3}
+26%{transform:translate3d(20cqh,-20cqh,0) scale(.62);opacity:1;z-index:2}
+33.333333%{transform:translate3d(7.33333cqh,5.33333cqh,0) scale(.88);opacity:1;z-index:3}
 44%{transform:translate3d(var(--x1),var(--y1),0) scale(var(--s1));opacity:1;z-index:3}
 44.00001%,100%{transform:translate3d(var(--x1),var(--y1),0) scale(var(--s1));opacity:0;z-index:0}
 }
