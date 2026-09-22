@@ -1,0 +1,1 @@
+(()=>{const frames=[...document.querySelectorAll('.slide')];let current=0;Promise.all([document.fonts.ready,...[...document.images].map(img=>img.decode().catch(()=>{}))]).then(()=>{setInterval(()=>{const next=(current+1)%frames.length;frames[next].classList.add('on');frames[current].classList.remove('on');current=next},4000)})})();
